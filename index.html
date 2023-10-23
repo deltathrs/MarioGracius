@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Mario Gracius Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">   
+    <script src="https://kit.fontawesome.com/b31a80d15a.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>M</span>ario.</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Mobile Application Developer</p>
+                <h1>Hi, I'm <span>Mario</span> Gracius<br>from BINUS University</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile (1).png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Computer Science degree student from Bina Nusantara University
+                        Malang and I look forward to be a Mobile Application Developer because I am always
+                        enthusiastic learning more about Mobile Application and I am also a dedicated student
+                        who enjoys challenges. 
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Mobile App Development</span><br>Developing Mobile Application</li>
+                            <li><span>Augmented Reality App Development</span><br>Developing AR Application</li>
+                            <li><span>Virtual Reality App Development</span><br>Developing VR Application</li>
+                            <li><span>Computer Networking</span><br>Create Network Architecture</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>October 2019 - January 2020</span><br>Intern Technician at Ubaya University</li>
+                            <li><span>January 2023 - Present</span><br>Creative and Design Manager at Himpunan Mahasiswa Teknik Informatika(HIMTI) BINUS Malang</li>
+                            <li><span>May 2023 - June 2023</span><br>DIGIFEST Event Leader at Himpunan Mahasiswa Teknik Informatika(HIMTI) BINUS Malang</li>
+                            <li><span>September 2023 - Present</span><br>Computer Network Teaching Assistant at BINUS Malang</li>
+                            <li><span>September 2023 - Present</span><br>Database Technology Teaching Assistant at BINUS Malang</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017</span><br>Computer and Network Engineering at Petra Vocational High School Surabaya</li>
+                            <li><span>2020 - Present</span><br>Computer Science Degree at Bina Nusantara University Malang</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Interests -->
+    <div id="interests">
+        <div class="container">
+            <div class="sub-title">Area Of Interest</div>
+            <div class="interests-list">
+                <div>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h2>Mobile Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo vitae hic quos enim beatae vero vel necessitatibus molestiae suscipit at, obcaecati asperiores earum. Similique magnam consequatur aperiam suscipit non.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-vr-cardboard"></i>
+                    <h2>AR/VR Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo vitae hic quos enim beatae vero vel necessitatibus molestiae suscipit at, obcaecati asperiores earum. Similique magnam consequatur aperiam suscipit non.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h2>Network Architecture</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo vitae hic quos enim beatae vero vel necessitatibus molestiae suscipit at, obcaecati asperiores earum. Similique magnam consequatur aperiam suscipit non.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Portfolio -->
+        <div id="portfolio">
+            <div class="container">
+            <h1 class="sub-title">My Previous Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/lonelyar.jpg">
+                    <div class="layer">
+                        <h3>LonelyScape AR App</h3>
+                        <p>This app allows the user to play an AR based escape room</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/vrshoot.jpg">
+                    <div class="layer">
+                        <h3>Tactical Range VR App</h3>
+                        <p>This app allows the user to play a VR Shooting game using VR Device</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/orged.jpg">
+                    <div class="layer">
+                        <h3>OrgEd AR App</h3>
+                        <p>This app allows the user to learn more about human organs using AR technology</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Ongoing Work -->
+        <div id="portfolio">
+            <div class="container">
+            <h1 class="sub-title">My Ongoing Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/jasarumahku.jpg">
+                    <div class="layer">
+                        <h3>JasaRumahku Mobile App</h3>
+                        <p>This app allows the user to book a service for their home such as plumbing,electrical service,etc</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/purrrfect.jpg">
+                    <div class="layer">
+                        <h3>Purrrfect Mobile App</h3>
+                        <p>This app allows the user to book a pet sitter online to ensure their lovely pet is safe while the owner away</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/eventradar.png">
+                    <div class="layer">
+                        <h3>EventRadar Website App</h3>
+                        <p>This app allows the user to book a seminar/webinar online</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Contact -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>mario.lita@binus.ac.id</p>
+                        <p><i class="fa-solid fa-phone"></i>+62 857 3682 4619</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/deltathrs"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/mario-gracius-1613031b5/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/mgracius"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="cv"><a href="images/mario-cv.pdf" download class="btn btn2">Download CV</a></div>
+                </div>
+            </div>
+        </div>
+
+
+
+    <script>
+         
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+</body>
+</html>
